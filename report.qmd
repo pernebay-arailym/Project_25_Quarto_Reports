@@ -2,6 +2,7 @@
 title: "Country Report"
 subtitle: "United States"
 author: "Arailym PERNEBAY"
+toc: True
 
 format:
     pdf: default
@@ -11,7 +12,10 @@ format:
 
 ## Subtitle
 
-random text here 
+```{python}
+for i in range(5):
+    print("Hello world!")
+```
 
 ## Another subtitle
 
