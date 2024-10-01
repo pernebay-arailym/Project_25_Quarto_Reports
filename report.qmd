@@ -19,7 +19,24 @@ for i in range(5):
 
 ## Another subtitle
 
-Some more random text
+```{python}
+import matplotlib.pyplot as plt
+
+#Data
+countries = ['USA', 'Canada', 'Mexico', 'Brazil', 'Argentina']
+population = [328.2, 37.6, 126.2, 211.0, 45.5] #in millions
+
+#Create bar chart
+plt.bar(countries, population)
+
+#Customize chart
+plt.title('Population by Country')
+plt.xlabel('Country')
+plt.ylabel('Population (in millions)')
+
+#Display chart
+plt.show()
+```
 
 ### A third subtitle
 
